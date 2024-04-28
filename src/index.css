@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header h1{
+  background-color:blueviolet;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+h1{
+  font-size:35px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Search{
+float: left;
+padding: 10px;
+}
+
+.Search input{
+  padding-left: 10px;
+  width: 1835px;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.S and B{
+  display: flex;
+}
+.Button svg{
+  width: 50px;
+  height: 30px;
+  float: right;
+  margin-right: 10px;
+}
+
+svg{
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.Form{
+  margin-top: 20px;
+  margin-left: 15px;
+  float: left;
+  display: flex;
+  width: 30;
+}
+
+.Description{
+  margin-left: 20px;
+}
+
+.Category{
+  margin-left: 20px;
+}
+
+.Amount{
+  margin-left: 20px;
+}
+
+.Date label{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.Date input{
+  margin-left: 10px;
+  text-align: center;
+  width: 420px;
+  height: 40px;
+}
+
+.Description input{
+  text-align: center;
+  width: 420px;
+  height: 40px;
+}
+
+.Category input{
+  width: 420px;
+  text-align: center;
+  height: 40px;
+ }
+
+ .Amount input{
+  text-align: center;
+  width: 420px;
+  height: 40px;
+ }
+
+ button {
+  margin-top: 30px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 23px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+
+ table{
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+ }
+
+ table tr td{
+  border: 0.5px solid grey;
+  border-collapse: collapse;
+ }
+
+ table td{
+  font-size: 1em;
+  padding: 1.5em;
+ }
+
+ tbody tr:nth-child(even){
+  background-color: #eaeaea;
+}
+
+thead tr th{
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0.5px solid grey;
+  border-collapse: collapse;
+}
+
