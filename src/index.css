@@ -59,66 +59,25 @@ svg{
   cursor: pointer;
 }
 
-.Form{
+.FormOne .Form div {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between elements as needed */
+}
+
+div input {
   margin-top: 20px;
-  margin-left: 15px;
-  float: left;
-  display: flex;
-  width: 30;
+  padding-left: 20px;
+  width: 400px;
+  height: 45px;
+  border-radius: 7px;
 }
 
-.Description{
-  margin-left: 20px;
-}
-
-.Category{
-  margin-left: 20px;
-}
-
-.Amount{
-  margin-left: 20px;
-}
-
-.Date label{
-  margin-left: 20px;
-  font-size: 20px;
-}
-
-.Date input{
-  margin-left: 10px;
-  text-align: center;
-  width: 420px;
-  height: 40px;
-}
-
-.Description input{
-  text-align: center;
-  width: 420px;
-  height: 40px;
-}
-
-.Category input{
-  width: 420px;
-  text-align: center;
-  height: 40px;
- }
-
- .Amount input{
-  text-align: center;
-  width: 420px;
-  height: 40px;
- }
-
- button {
+button{
   margin-top: 30px;
-  padding: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  font-size: 23px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
- }
+  width: 400px;
+  height: 40px;
+  border-radius: 7px;
+}
 
  table{
   margin-top: 50px;
